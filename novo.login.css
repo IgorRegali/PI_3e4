@@ -1,0 +1,152 @@
+    
+    body {
+        margin:0;
+        background-color:black;
+        font-family:monospace;
+    }
+
+    .header{
+        border-bottom: 3px solid aqua;
+    }
+
+    .container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+
+    .header .container{
+        justify-content: space-between;
+
+    }
+
+    .header ul .aqui{
+        font-weight: 800;
+        color: grey;
+    }
+
+    ul{
+        color:orange;
+    }
+
+    .titulo {
+        color:aqua;
+        width: fit-content;
+        font-weight: 500;
+    }
+
+    .navBar{
+        color : white ;
+        list-style:none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+        padding: 0;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .banner {
+        background-image: url("imgs/bg-jelly-fish-para-home.png");
+        height:500px;
+        color: #fff;
+        display: flex;
+    }
+
+    .banner .container p span{
+        font-weight: 900;
+    }
+
+    .banner .container{
+        font-size:36px;
+        justify-content: center;
+    }
+
+    .banner .container p{
+        width:30%;
+
+    }
+
+    /*Fim do banner */
+    /*Começo do Social */
+
+    .social {
+        background-color: beige;
+        display: flex;
+    }
+
+    .box img{
+        width: 170px;
+    }
+
+    .social .container .boxes{
+        display:flex;
+    }
+    .box{
+        display:flex;
+        margin-top:50px;
+        margin-bottom:50px;
+        flex-direction: column;
+        align-items:center;
+    }
+    /*Fim da Social-*/
+
+    /*Começo do footer*/
+
+    .footer{
+        background-color: black;
+        height:10px;
+        color: #fff;
+        font-size: 12px;
+        margin-top:200px;
+    }
+
+    .footer .container{
+        justify-content: center;
+    }
+
+    a{
+        color:white;
+        text-decoration: none;
+    }
+
+    .banner .container .card{
+        background-color:#fff;
+        height:600px;
+        width:400px;
+        display: flex;
+        flex-direction: column;
+        color:darkblue;
+        align-items: center;
+        border-radius: 4px;
+        margin-top:20px;
+
+    }
+
+    .card h1{
+        font-size:30px;
+
+    }
+
+    .card h4{
+        font-size:16px;
+        
+    } 
+    .card input{
+        border:darkblue solid 3px;
+        padding:10px;
+        text-align: center;
+        
+    }
+
+.card button {
+    width:100px;
+    height:35px;
+    background-color: darkblue;
+    margin-top: 25px;
+    color:#fff;
+    font: 700 20px monospace;
+    border:0;
+    border-radius: 4px;
+    cursor: pointer;
+}
